@@ -15,7 +15,8 @@ const networks = {
   'base-sepolia': 84532,
   'linea': 59144,
   'linea-goerli': 59140,
-  'optimism': 10
+  'optimism': 10,
+  'mantle': 50000
 };
 
 export async function getWalletConnector(walletConnectProjectId, relayUrl, requestedNetwork, connectOpts={}) {
