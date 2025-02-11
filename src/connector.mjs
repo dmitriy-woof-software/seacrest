@@ -16,7 +16,8 @@ const networks = {
   'linea': 59144,
   'linea-goerli': 59140,
   'optimism': 10,
-  'mantle': 5000
+  'mantle': 5000,
+  'scroll': 534352
 };
 
 export async function getWalletConnector(walletConnectProjectId, relayUrl, requestedNetwork, connectOpts={}) {
