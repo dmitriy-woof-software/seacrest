@@ -17,7 +17,8 @@ const networks = {
   'linea-goerli': 59140,
   'optimism': 10,
   'mantle': 5000,
-  'scroll': 534352
+  'scroll': 534352,
+  'unichain': 130
 };
 
 export async function getWalletConnector(walletConnectProjectId, relayUrl, requestedNetwork, connectOpts={}) {
