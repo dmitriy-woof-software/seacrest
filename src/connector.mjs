@@ -18,7 +18,8 @@ const networks = {
   'optimism': 10,
   'mantle': 5000,
   'scroll': 534352,
-  'unichain': 130
+  'unichain': 130,
+  'ronin': 2020
 };
 
 export async function getWalletConnector(walletConnectProjectId, relayUrl, requestedNetwork, connectOpts={}) {
